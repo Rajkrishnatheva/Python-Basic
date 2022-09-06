@@ -1,6 +1,6 @@
 #BMI CALCULATOR
-Height=float(input("enter the height in centimeter:"))
-Weight=float(input("enter the weight in kg:"))
+Height=float(input("enter your height in centimeter:"))
+Weight=float(input("enter your weight in kg:"))
 Height=Height/100
 BMI=Weight/(Height*Height)
 print("your body mass index is:", BMI)
